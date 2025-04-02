@@ -33,6 +33,7 @@ const FormIMC = () => {
             />
             <Button title="Calcular IMC" onPress={calcularIMC} />
             {imc && <Result imc={imc} />}
+            {imc && <Classification imc={imc} />}
         </View>
     );
 };
