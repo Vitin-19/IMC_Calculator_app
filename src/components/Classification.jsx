@@ -1,5 +1,4 @@
 import { View, TextInput, Button, StyleSheet } from "react-native";
-import Result from "./Results";
 import { useState } from "react";
 import { styles } from "./Results";
 
@@ -23,7 +22,9 @@ const Classification = ({imc}) => {
         break;
 
         return(
-            <Text styles={styles}>Seu IMC é classificado como: {imc}</Text>
+            <Text styles={styles}>Seu IMC é classificado como: {classification}</Text>
         );
     }
 }
+
+export default Classification;

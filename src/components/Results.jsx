@@ -7,7 +7,7 @@ const Result = ({imc}) => {
     );
 };
 
-export const styles = StyleSheet.create({
+const styles = StyleSheet.create({
     result:{
         marginTop: 20,
         fontSize: 24,

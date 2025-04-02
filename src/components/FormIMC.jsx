@@ -1,6 +1,8 @@
 import { View, TextInput, Button, StyleSheet } from "react-native";
-import Result from "./Results";
+//import { styles } from "./Results";
 import { useState } from "react";
+import Classification from "./Classification";
+import Result from "./Results";
 
 const FormIMC = () => {
     const [peso, setPeso] = useState(' ');
