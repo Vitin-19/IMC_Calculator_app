@@ -1,5 +1,6 @@
 import { Text,StyleSheet } from "react-native";
 
+// Função que retorna o título "Calculadora de IMC"
 const Title = () => {
     return(
         <Text style={styles.title}>Calculadora de IMC</Text>

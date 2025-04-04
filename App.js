@@ -2,6 +2,8 @@ import { StyleSheet, View } from 'react-native';
 import Title from './src/components/Tiltle';
 import FormIMC from './src/components/FormIMC';
 
+// Função para carregar a tela
+
 function App() {
   return (
     <View style={styles.container}>

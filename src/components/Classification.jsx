@@ -1,8 +1,13 @@
 import { useEffect, useState } from "react";
 import { Text, StyleSheet } from "react-native";
 
+
+// Função que retorna a classificação do IMC junto com um texto 
 const Classification = ({imc}) => {
-    let [classification,setClassification] = useState(null)
+    let [classification,setClassification] = useState(null);
+
+    /* Utilização do useEffect para que a classificação do IMC aparece junto ao resultado e ao peso correto,
+    premitindo que apareça todos os retornos corretamentes*/
     useEffect(() => {
         switch (true){
             case imc < 18.5:
