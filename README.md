@@ -1,6 +1,6 @@
 <h1>IMC_Calculator_app</h1>
 
-This repository is a IMC calculator mobile app created for my school activity. At there, you enter your height and your weight and de system will return your IMC, 
+This repository is an IMC calculator mobile app created for my school activity. At there, you enter your height and your weight and de system will return your IMC, 
 a classification based on your result and what is your ideal weight based on your height. You can see this last information just entering your height.<br>
 The technologies used on this project were:<br><br>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="50" height="50"/> Java Script <br>
@@ -14,7 +14,7 @@ After cloning the project, you must install the node_modules and the package-loc
 ``` shel
 npm install
 ```
-And now to executev the app, you just need to use the command:
+Now to execute the app, you need to use the command:
 ``` shel
 npx expo start --tunnel
 ```
