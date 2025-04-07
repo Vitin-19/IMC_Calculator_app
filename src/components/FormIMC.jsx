@@ -15,17 +15,17 @@ const FormIMC = () => {
     const [pesos,setPesos] = useState(null); // A variável "pesos" será um array que receberá os valores do peso mínimo e máximo
 
     const calcularIMC = () => {
-        if(peso && altura){
+        if(!isNaN(peso) && !isNaN(altura)){
             const alturaMetros = parseFloat(altura) / 100;
             const imcCalculado = (parseFloat(peso) / (alturaMetros * alturaMetros)).toFixed(2);
             setImc(imcCalculado);
-        };
+        }
     };
 
 
     // Função para retornar o peso mínimo e máximo que o usuário deve ter com base na sua altura
     const minMaxWeight = () => {
-        if(altura){
+        if(!isNaN(altura)){
             const alturaMetros = parseFloat(altura) / 100;
             const minWeight = 18.5 * (alturaMetros * alturaMetros);
             const maxWeight = 24.9 * (alturaMetros * alturaMetros);
