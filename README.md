@@ -19,7 +19,8 @@ Now to execute the app, you need to use the command:
 npx expo start --tunnel
 ```
 And on Android, scan the generated QrCode using the Expo go app or, on IOS, scan it using the camera.<br><br>
-<b>REMEMBER:</b> You must have Nodejs installed on your computer to execute all of it.
+<b>REMEMBER:</b> You must have Nodejs installed on your computer to execute all of it. If you don't have it, click on the link below to download it.
+<a>https://nodejs.org/en/download</a>
 <h3>NOTE</h3>
 <hr>
 This project was created for studies, school activities and portifolio reasons. Its use, modification and redistribution are not allowed without authorization.<br>
