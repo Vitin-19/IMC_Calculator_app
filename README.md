@@ -25,5 +25,6 @@ And on Android, scan the generated QrCode using the Expo go app or, on IOS, scan
 <hr>
 This project was created for studies, school activities and portifolio reasons. Its use, modification and redistribution are not allowed without authorization.<br>
 All of the project is on portuguese.<br>
+<b></b>Only for my teachers</b>: Link of the short video explaning the chalanges solved -> <a>https://youtu.be/piqCbW4hgLU</a>
 
 
