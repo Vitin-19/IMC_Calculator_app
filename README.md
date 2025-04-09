@@ -10,7 +10,11 @@ To download it, you can clone this repository using Github desktop or Git using 
 ``` shel
 git clone https://github.com/Vitin-19/IMC_Calculator_app.git
 ```
-After cloning the project, you must install the node_modules and the package-lock.json using the command:
+After cloning, you must enter in the directory:
+```shel
+cd IMC_Calculator_app
+````
+After entering in the directory, you must install the node_modules and the package-lock.json using the command:
 ``` shel
 npm install
 ```
@@ -25,6 +29,7 @@ And on Android, scan the generated QrCode using the Expo go app or, on IOS, scan
 <hr>
 This project was created for studies, school activities and portifolio reasons. Its use, modification and redistribution are not allowed without authorization.<br>
 All of the project is on portuguese.<br>
-<b>Only for my teachers</b>: Link of the short video explaning the chalanges solved -> <a>https://www.youtube.com/watch?v=piqCbW4hgLU</a>
+<b>Only for my teachers</b>: Link of the short video explaning the chalanges solved -> 
+<a src="https://youtu.be/piqCbW4hgLU">https://youtu.be/piqCbW4hgLU</a>
 
 
