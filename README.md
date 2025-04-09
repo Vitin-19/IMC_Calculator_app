@@ -10,7 +10,11 @@ To download it, you can clone this repository using Github desktop or Git using 
 ``` shel
 git clone https://github.com/Vitin-19/IMC_Calculator_app.git
 ```
-After cloning the project, you must install the node_modules and the package-lock.json using the command:
+After cloning, you must enter in the directory:
+```shel
+cd IMC_Calculator_app
+````
+After entering in the directory, you must install the node_modules and the package-lock.json using the command:
 ``` shel
 npm install
 ```
