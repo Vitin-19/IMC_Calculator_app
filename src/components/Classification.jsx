@@ -40,7 +40,7 @@ export const styles = StyleSheet.create({
         marginTop: 10,
         fontSize: 17,
         textAlign: 'center',
-        color: '#333'
+        color: 'white'
     }
 });
 

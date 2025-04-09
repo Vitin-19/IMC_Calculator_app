@@ -74,7 +74,7 @@ const FormIMC = () => {
 //Estilos do formulário
 const styles = StyleSheet.create({
     formContainer:{
-        backgroundColor: "#f0f0f0",
+        backgroundColor: "#0066ff",
         padding: 16,
         borderRadius: 10,
         minWidth:'97%',
@@ -82,11 +82,12 @@ const styles = StyleSheet.create({
     },
     input: {
         height: 40,
-        borderColor: 'gray',
+        borderColor: 'white',
         borderWidth: 1,
         marginBottom: 12,
         paddingHorizontal: 8,
         borderRadius: 5,
+        color:"white"
     },
 });
 
